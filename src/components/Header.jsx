@@ -1,9 +1,11 @@
+import { Carts } from "./Carts.jsx";
 import { Filters } from "./Filters.jsx";
-export const Header = ({ changeFilters }) => {
+export const Header = () => {
   return (
     <header>
       <h1>React Shop 🛒</h1>
-      <Filters onChange={changeFilters} />
+      <Carts />
+      <Filters />
     </header>
   );
 };
